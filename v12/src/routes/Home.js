@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Portfolio from "../components/Portfolio";
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
         url="/"
         btnClass="show"
         />
+        <Portfolio/>
               
         </>
     );
