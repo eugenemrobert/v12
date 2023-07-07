@@ -7,7 +7,7 @@ function Contact () {
         <Navbar />
         <Hero
         cName="hero-mid"
-        heroImg="https://cpsns.ns.ca/wp-content/uploads/2021/12/AdobeStock_338472274_sm.jpg"
+        heroImg="https://www.capitalfm.co.ke/thesauce/files/2022/04/Woman-on-phone.jpg"
         title="Get in touch with us" 
         text="Find out why we do what we do the way we do it"
         btnClass="hide"
