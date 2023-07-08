@@ -1,8 +1,9 @@
-import Main from "../assets/Blist/main.png"
-import Dark from "../assets/Blist/dark.png"
-import Switch1 from "../assets/Blist/Color-switch-dark.png"
-import Switch2 from "../assets/Blist/Color-switch-light.png"
 import "./PortfolioStyles.css"
+import Main from "../assets/Blist/Blist1.png"
+import Dark from "../assets/Blist/Blist2.png"
+{/* import Switch1 from "../assets/Blist/Color-switch-dark.png" */}
+{/* import Switch2 from "../assets/Blist/Color-switch-light.png" */}
+
 
 
 const Portfolio = () => {
@@ -27,8 +28,8 @@ const Portfolio = () => {
                 <div className="image">
                     <img alt="img" src={Main}/>
                     <img alt="img" src={Dark}/>
-                    <img alt="img" src={Switch1}/>
-                    <img alt="img" src={Switch2}/>
+                    {/* <img alt="img" src={Switch1}/> */}
+                    {/* <img alt="img" src={Switch2}/> */}
                 </div>
             </div>
         </div>
