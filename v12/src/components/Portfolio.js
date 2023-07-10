@@ -12,7 +12,17 @@ const Portfolio = () => {
             <p>Peruse our past works and understand why we are rated highly.</p>
 
 
-            <PortfolioData/>
+            <PortfolioData
+            heading="Blist Ventures"
+            text="This was a simple frontend heavy website that we built using HTML, CSS, and JavaScript.
+            The unique thing about this project is that we were able to implement the dark mode theme as
+            well as the color switcher. 
+            For the lovers of aestethic web display, this project would be something that would easily catch
+            your eye.
+            This project goes on to show that we care about the clients' eyes by virtue of us developing websites
+            with a dark mode theme from scratch."
+            
+            />
             
         </div>
     );
