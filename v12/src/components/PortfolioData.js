@@ -9,19 +9,14 @@ class PortfolioData extends Component {
             <div className="first-project">
                 <div className="project-text">
                     <h2>{this.props.heading}</h2>
-                    <p>This was a simple frontend heavy website that we built using HTML, CSS, and JavaScript.
-                        The unique thing about this project is that we were able to implement the dark mode theme as
-                        well as the color switcher. 
-                        For the lovers of aestethic web display, this project would be something that would easily catch
-                        your eye.
-                        This project goes on to show that we care about the clients' eyes by virtue of us developing websites
-                        with a dark mode theme from scratch.
+                    <p>
+                        {this.props.text}
                     </p>
                 </div>
 
                 <div className="image">
-                    <img alt="img" src={Main}/>
-                    <img alt="img" src={Dark}/>
+                    <img alt="img" src={this.props.img1}/>
+                    <img alt="img" src={this.props.img2}/>
                     {/* <img alt="img" src={Switch1}/> */}
                     {/* <img alt="img" src={Switch2}/> */}
                 </div>
