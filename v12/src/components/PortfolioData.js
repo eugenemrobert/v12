@@ -6,7 +6,7 @@ import { Component } from "react";
 class PortfolioData extends Component {
     render(){
         return (
-            <div className="first-project">
+            <div className={this.props.className}>
                 <div className="project-text">
                     <h2>{this.props.heading}</h2>
                     <p>
