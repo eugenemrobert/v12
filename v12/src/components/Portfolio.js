@@ -15,6 +15,7 @@ const Portfolio = () => {
 
 
             <PortfolioData
+            className="first-project"
             heading="Blist Ventures"
             text="This was a simple frontend heavy website that we built using HTML, CSS, and JavaScript.
             The unique thing about this project is that we were able to implement the dark mode theme as
@@ -28,6 +29,7 @@ const Portfolio = () => {
             />
 
             <PortfolioData
+            className="first-project-reverse"
             heading="Lordz Gym"
             text="This is a simple frontend heavy website that was also built using HTML, CSS, and JavaScript."
             img1={Head}
