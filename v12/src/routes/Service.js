@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Project from "../components/Project";
 
 function Service () {
     return (
@@ -13,6 +14,7 @@ function Service () {
         text="Find out why we do what we do the way we do it"
         btnClass="hide"
         />
+        <Project/>
         <Footer/>
         
         </>
