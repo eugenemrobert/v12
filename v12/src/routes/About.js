@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -12,6 +13,7 @@ function About () {
         text="Find out why we do what we do the way we do it"
         btnClass="hide"
         />
+        <Footer/>
         
         </>
     )
