@@ -9,7 +9,7 @@ function Service () {
         <Navbar />
         <Hero
         cName="hero-mid"
-        heroImg="https://cpsns.ns.ca/wp-content/uploads/2021/12/AdobeStock_338472274_sm.jpg"
+        heroImg="https://img.freepik.com/free-photo/flat-lay-photo-office-desk-with-laptop-copy-space-background_1150-45598.jpg?size=626&ext=jpg"
         title="Get to Know What We Do" 
         text="Find out why we do what we do the way we do it"
         btnClass="hide"
